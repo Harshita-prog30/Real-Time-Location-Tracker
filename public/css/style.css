@@ -1,0 +1,29 @@
+/* Remove default margins & padding */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Map full screen */
+#map {
+    height: 100vh;
+    width: 100%;
+}
+
+/* Optional: Marker popup style */
+.leaflet-popup-content {
+    font-size: 14px;
+}
+
+/* Optional: For a cleaner UI */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 8px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
